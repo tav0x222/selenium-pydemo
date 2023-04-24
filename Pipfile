@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pytest = "*"
+allure-pytest = "*"
+selenium = "*"
+
+[dev-packages]
+pylint = "*"
+autopep8 = "*"
+rope = "*"
+isort = "*"
+
+[requires]
+python_version = "3.11"
